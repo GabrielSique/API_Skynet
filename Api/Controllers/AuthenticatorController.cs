@@ -21,7 +21,7 @@ namespace Api.Controllers
             _parseService = parseService;
             //_mapper = mapper;
         }
-
+            
         //[ServiceFilter(typeof(AuthenticationFilter))]
         [ServiceFilter(typeof(ValidationFilter))]
         [HttpPost("Login")]
