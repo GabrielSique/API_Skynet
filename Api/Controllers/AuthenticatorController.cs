@@ -14,6 +14,7 @@ namespace Api.Controllers
         private readonly IAuthenticatorService _authenticator;
         private readonly ILogService _logService;
         private readonly IParseService _parseService;
+
         public AuthenticatorController(IAuthenticatorService authenticator, ILogService logService, IParseService parseService/*, IMapper mapper*/)
         {
             _authenticator = authenticator;
